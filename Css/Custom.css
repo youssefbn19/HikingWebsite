@@ -38,7 +38,7 @@
 
 .hero-section{
     
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/Assets/BgLPage.png);
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../Assets/BgLPage.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -86,7 +86,7 @@
     margin: 20px 0px;
     padding-bottom: 100px;
 
-    background: white url(/Assets/FloralShadow.png) bottom left no-repeat;
+    background: white url(../Assets/FloralShadow.png) bottom left no-repeat;
     background-size: 33%;
 }
 .cards-section .card img{
@@ -158,7 +158,7 @@
 }
 .hiking-section{
     min-height: 90vh;
-    background: url(/Assets/HikingShape1.png) top no-repeat, url(/Assets/HikingShape2.png) bottom no-repeat,url(/Assets/FloralShadow.png) center left no-repeat;
+    background: url(../Assets/HikingShape1.png) top no-repeat, url(../Assets/HikingShape2.png) bottom no-repeat,url(../Assets/FloralShadow.png) center left no-repeat;
     background-size: 100%,100%,33%;
     background-color: #7f7770;
     color: white;
@@ -169,7 +169,7 @@
 
 .explore-section{
     height: 100vh;
-    background: url(/Assets/ExploreShape1.png) top no-repeat, url(/Assets/ExploreShape2.png) bottom no-repeat, url(/Assets/ExploreImg.png) center right no-repeat;
+    background: url(../Assets/ExploreShape1.png) top no-repeat, url(../Assets/ExploreShape2.png) bottom no-repeat, url(../Assets/ExploreImg.png) center right no-repeat;
     background-size: 100%, 100%, cover;
 }
 .explore-section h1{
@@ -185,7 +185,7 @@
     color: #54524f
 }
 .info-section{
-        background: url(/Assets/FloralShadow2.png) bottom right no-repeat;
+        background: url(../Assets/FloralShadow2.png) bottom right no-repeat;
          background-size: 35%;
 }
 .info-section .row-one{
@@ -210,7 +210,7 @@
 }
 .newsletter-section{
     min-height: 700px;
-    background: url(/Assets/ExploreShape1.png) top no-repeat, url(/Assets/ExploreShape2.png) bottom no-repeat;
+    background: url(../Assets/ExploreShape1.png) top no-repeat, url(../Assets/ExploreShape2.png) bottom no-repeat;
     background-size: 100%, 100%;
     background-color: #deb37e;
     color:#54524f;
