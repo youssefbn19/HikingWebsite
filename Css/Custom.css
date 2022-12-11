@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler{
+    box-shadow: none;
+    border: none;
+}
+.navbar-nav{
+    min-width: 65%;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    margin: 5px;
+}
+.nav-item .input-group{
+    border: none;
+    border-radius: 20px;
+    background-color:#c3bfbc;
+    margin: 5px ;
+    
+}
+
+.nav-item .input-group .form-control{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    color:#7f776d;
+    font-weight: 600;
+}
+.nav-item .input-group .bi-search{
+    color: #7f776d;
+    background-color: #c3bfbc;
+}
+
+.hero-section{
+    
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/Assets/BgLPage.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero-section h1, .cards-section h1{
+    font-size: 4em;
+    font-weight: 800;
+    color: #e2a355;
+    text-transform: uppercase;
+}
+.hero-section h5{
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:#62605d;
+}
+.hero-section .btn{
+    background-color: white;
+    color: #62605d;
+    border-radius: 30px;
+    font-weight: bold; 
+    transition: 0.5s ease;
+}
+.hero-section .btn:hover{
+    color: white;
+    background-color: #62605d;
+}
+.hero-section p{
+    font-style: italic;
+    color:black;
+}
+.cards-section p{
+    color: #7f7770;
+    line-height: 22px;
+}
+.cards-section .card{
+    border: none;
+    background-color: #7f7770;
+    border-radius: 0px;
+    color: #7f7770;
+}
+.cards-section{
+    margin: 20px 0px;
+    padding-bottom: 100px;
+
+    background: white url(/Assets/FloralShadow.png) bottom left no-repeat;
+    background-size: 33%;
+}
+.cards-section .card img{
+    border-radius: 0px;
+}
+.cards-section .card h5{
+    font-weight: bold;
+    color : white;
+    
+}
+.cards-section .card p{
+    color:white;
+}
+.cards-section .btn{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #7f7770;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+.cards-section .btn:hover{
+    background-color: #444343;
+
+}
+.offers-section .row .col-12, .offers-section .row .col-md-6{
+    margin: 0px;
+    padding: 0px;
+    height: 80vh;
+}
+.offers-section .row p, .hiking-section p{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 200;
+}
+.offers-section .row h2{
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+.offers-section .row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.offers-section .row .btn{
+    background-color: #e2a355;
+    width: 50%;
+    box-shadow: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+.offers-section .row .btn:hover{
+    background-color: #f79722;
+}
+.offers-section .row .card{
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+}
+.offers-section .row .discount, .offers-section .row .offer{
+ background-color: #7f7770;
+ color : white;
+}
+.hiking-section{
+    min-height: 90vh;
+    background: url(/Assets/HikingShape1.png) top no-repeat, url(/Assets/HikingShape2.png) bottom no-repeat,url(/Assets/FloralShadow.png) center left no-repeat;
+    background-size: 100%,100%,33%;
+    background-color: #7f7770;
+    color: white;
+}
+.hiking-section h2 {
+    font-weight: 600;
+}
+
+.explore-section{
+    height: 100vh;
+    background: url(/Assets/ExploreShape1.png) top no-repeat, url(/Assets/ExploreShape2.png) bottom no-repeat, url(/Assets/ExploreImg.png) center right no-repeat;
+    background-size: 100%, 100%, cover;
+}
+.explore-section h1{
+    font-size: 4em;
+    text-align: right;
+    font-weight: 800;
+    color: #e2a355;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 2px -2px 5px #54524f;
+}
+.explore-section h1 span{
+    color: #54524f
+}
+.info-section{
+        background: url(/Assets/FloralShadow2.png) bottom right no-repeat;
+         background-size: 35%;
+}
+.info-section .row-one{
+    margin-top: 50px;
+}
+.info-section .row-one h5{
+    color: #deb37e;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.info-section .row-two{
+    padding-top: 200px;
+    padding-bottom: 60px;
+
+}
+.info-section .row-two p{
+    font-weight: bold;
+}
+.info-section .row-two .para{
+    font-weight:600;
+}
+.newsletter-section{
+    min-height: 700px;
+    background: url(/Assets/ExploreShape1.png) top no-repeat, url(/Assets/ExploreShape2.png) bottom no-repeat;
+    background-size: 100%, 100%;
+    background-color: #deb37e;
+    color:#54524f;
+}
+.newsletter-section .input-group{
+    background-color: white;
+    border-radius: 20px;
+}
+.newsletter-section h1{
+    color: white;
+    font-weight: bold;
+    font-size:3em;
+}
+.newsletter-section .form-control{
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px; 
+    border: 0px;
+    padding: 8px 20px;
+}
+.newsletter-section .btn{
+    box-shadow: none;
+    border: 0px;
+    border-radius: 20px; 
+    background-color: #54524f;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+footer .socialIcons a i{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+footer{
+    margin-bottom:5%; 
+}
+footer .footerLinks p{
+    margin-bottom: 5px;
+
+}
+footer .footerLinks p a{
+    text-decoration: none;
+    color: black;
+
+}
